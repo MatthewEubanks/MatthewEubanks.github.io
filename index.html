@@ -1,129 +1,159 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Matthew Eubanks PortFolio</title>
     <link href="index.css" rel="stylesheet" type="text/css" />
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-    <link rel="icon" type="image/png" href="./favicon.ico">
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/png" href="./favicon.ico" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-</head>
+  </head>
 
-<body>
-    <header>
-        <div class="header">
-            <a href="#default" class="logo">Matthew Eubanks</a>
-            <div class="header-right">
-                <a class="active" href="#about">About</a>
-                <a href="#portfolio">Portfolio</a>
-                <a href="#contact">Contact</a>
-            </div>
+  <body>
+    <nav>
+      <div class="header" id="myHeader">
+        <a href="#default" class="logo">Matthew Eubanks</a>
+        <div class="header-right">
+          <a class="active" href="#about">About</a>
+          <a href="#projects">Projects</a> <a href="#contact">Contact</a>
         </div>
-    </header>
+      </div>
+    </nav>
     <main>
+      <div class="main">
         <div class="avatar-image">
-            <img class="avatar" src="./images/betterProfile.jpg" alt="Avatar">
+          <img class="avatar" src="./images/betterProfile.jpg" alt="Avatar" />
         </div>
         <div class="about">
-            <h2><a name="about">About Me</a></h2>
-            <div class="container">
-                <div class="about-me">
-                    <p><strong>I love good RPG video games, Witcher 3, Batman: Arkham Knight,</strong></p>
-                    <p><strong>I need coffee to function,</strong></p>
-                    <p><strong>Fairy Tail fan, Natsu is my favorite characther,</strong></p>
-                    <p><strong>and I’m a Full Stack Web Developer.</strong></p>
-                    <p><strong>
-                            I enjoy building API’s and React pages to interact with them.
-                        </strong></p>
-                </div>
+          <h2><a name="about">About Me</a></h2>
+          <div class="container">
+            <div class="about-me">
+              <p>
+                <strong
+                  >I love good RPG video games, Witcher 3, Batman: Arkham
+                  Knight,</strong
+                >
+              </p>
+              <p><strong>I need coffee to function,</strong></p>
+              <p>
+                <strong
+                  >Fairy Tail fan, Natsu is my favorite characther,</strong
+                >
+              </p>
+              <p><strong>and I’m a Full Stack Web Developer.</strong></p>
+              <p>
+                <strong>
+                  I enjoy building API’s using Node.js and REACT applications.
+                </strong>
+              </p>
             </div>
+          </div>
         </div>
-        <div class="portfolio">
-            <h2><a name="portfolio">Portfolio</a></h2>
-            <div class="container">
-                <h3>The Book Shelf</h3>
-                <div class="portfolio-image">
-                    <img class="image-port" src="./images/Book-Shelf.PNG">
-                </div>
-                <div class="portfolio-text">
-                    <p>An application built with React on the front end and Node.js on the back end. You can see book
-                        reviews and store your reviews. I wanted to make this app because I enjoy reading and wanted to
-                        leave my reviews for some of my favorite books.</p>
-                    <p><strong>Technology: </strong>Mongoose, Express, React, Node.js</p>
-
-
-                    <a href="https://github.com/matteprg/react-book-shelf">
-                        Repo
-                    </a>
-                    |
-                    <a href="https://matts-book-shelf.herokuapp.com/">
-                        Live Demo
-                    </a>
-                </div>
+        <div class="projects">
+          <h2><a name="projects">Projects</a></h2>
+          <div class="container">
+            <h3>The Book Shelf</h3>
+            <div class="projects-image">
+              <img class="image-port" src="./images/Book-Shelf.PNG" />
             </div>
-            <div class="container">
-                <h3>Car Detailer Blog</h3>
-                <div class="portfolio-image">
-                    <img class="image-port" src="./images/mobileDetailerBlog.PNG">
-                </div>
-                <div class="portfolio-text">
-                    <p>A single page app I built because I am a mobile detailer on the side and I want to be able to
-                        show
-                        off some of the cool cars that I have detailed.</p>
-                    <p><strong>Technology: </strong>Mongoose, Express, Javscript, jQuery, Node.js</p>
+            <div class="projects-text">
+              <p>
+                An application built with React on the front end and Node.js on
+                the back end. You can see book reviews and store your reviews. I
+                wanted to make this app because I enjoy reading and wanted to
+                leave my reviews for some of my favorite books.
+              </p>
+              <p>
+                <strong>Technology: </strong>Mongoose, Express, React, Node.js
+              </p>
 
-                    <a href="https://github.com/matteprg/Mobile-Detailing-Blog">
-                        Repo
-                    </a>
-                    |
-                    <a href="https://mobile-detailer-props-blog.herokuapp.com/">
-                        Live Demo
-                    </a>
-                </div>
+              <a href="https://github.com/matteprg/react-book-shelf"> Repo </a>
+              |
+              <a href="https://matts-book-shelf.herokuapp.com/"> Live Demo </a>
             </div>
-            <div class="container">
-                <h3>Find Your Favorite Dog</h3>
-                <div class="portfolio-image">
-                    <img class="image-port" src="./images/FavDogBreed.PNG">
-                </div>
-                <div class="portfolio-text">
-                    <p>A single page app I built that connects to an API and allows the user to see pictures of
-                        different dog breeds.</p>
-                    <p><strong>Technology: </strong>HTML, CSS, Javscript, jQuery, AJAX</p>
+          </div>
+          <div class="container">
+            <h3>Car Detailer Blog</h3>
+            <div class="projects-image">
+              <img class="image-port" src="./images/mobileDetailerBlog.PNG" />
+            </div>
+            <div class="projects-text">
+              <p>
+                A single page app I built because I am a mobile detailer on the
+                side and I want to be able to show off some of the cool cars
+                that I have detailed.
+              </p>
+              <p>
+                <strong>Technology: </strong>Mongoose, Express, Javscript,
+                jQuery, Node.js
+              </p>
 
-                    <a href="https://github.com/MatthewEubanks/Thinkful-Capstone1">
-                        Repo
-                    </a>
-                    |
-                    <a href="https://FindYourFavoriteDog--matteubanks.repl.co">
-                        Live Demo
-                    </a>
-                </div>
+              <a href="https://github.com/matteprg/Mobile-Detailing-Blog">
+                Repo
+              </a>
+              |
+              <a href="https://mobile-detailer-props-blog.herokuapp.com/">
+                Live Demo
+              </a>
             </div>
+          </div>
+          <div class="container">
+            <h3>Find Your Favorite Dog</h3>
+            <div class="projects-image">
+              <img class="image-port" src="./images/FavDogBreed.PNG" />
+            </div>
+            <div class="projects-text">
+              <p>
+                A single page app I built that connects to an API and allows the
+                user to see pictures of different dog breeds.
+              </p>
+              <p>
+                <strong>Technology: </strong>HTML, CSS, Javscript, jQuery, AJAX
+              </p>
+
+              <a href="https://github.com/MatthewEubanks/Thinkful-Capstone1">
+                Repo
+              </a>
+              |
+              <a href="https://FindYourFavoriteDog--matteubanks.repl.co">
+                Live Demo
+              </a>
+            </div>
+          </div>
         </div>
-        </div>
+
         <div class="contact">
-            <h2><a name="contact">Contact Me</a></h2>
-            <div class="container">
-                <div class="portfolio-text">
-                    <p><strong>Email: </strong>
-                        <a href="spc.eubanks.matthew@gmail.com">spc.eubanks.matthew@gmail.com</a>
-                    </p>
-                    <p><strong>Github: </strong>
-                        <a href="https://github.com/matteprg">https://github.com/matteprg</a>
-                    </p>
-                    <p><strong>LinkedIn: </strong>
-                        <a href="https://www.linkedin.com/in/matthew-eubanks-5791472b/">https://www.linkedin.com/in/matthew-eubanks-5791472b/</a>
-                    </p>
-                </div>
+          <h2><a name="contact">Contact Me</a></h2>
+          <div class="container">
+            <div class="projects-text">
+              <p>
+                <strong>Email: </strong>
+                <a href="spc.eubanks.matthew@gmail.com"
+                  >spc.eubanks.matthew@gmail.com</a
+                >
+              </p>
+              <p>
+                <strong>Github: </strong>
+                <a href="https://github.com/matteprg"
+                  >https://github.com/matteprg</a
+                >
+              </p>
+              <p>
+                <strong>LinkedIn: </strong>
+                <a href="https://www.linkedin.com/in/matthew-eubanks-5791472b/"
+                  >https://www.linkedin.com/in/matthew-eubanks-5791472b/</a
+                >
+              </p>
             </div>
+          </div>
         </div>
+      </div>
     </main>
-    <script src="index.js">
-    </script>
-</body>
-
+    <script src="index.js"></script>
+  </body>
 </html>
