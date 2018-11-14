@@ -153,31 +153,6 @@ main {
   margin: 0 auto;
   color: rgb(66, 66, 66);
 }
-/* .projects a:link,
-a:visited {
-  background-color: #7f1cad;
-  color: white;
-  padding: 14px 25px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-}
-.projects a:hover,
-a:active {
-  background-color: rgb(0, 110, 255);
-}
-.contact a:link {
-  color: rgb(208, 226, 250);
-}
-.contact a:visited {
-  color: green;
-}
-.contact a:hover {
-  color: rgb(23, 128, 247);
-}
-.contact a:active {
-  color: blue;
-} */
 h2 {
   padding-left: 5px;
   padding-top: 5px;
